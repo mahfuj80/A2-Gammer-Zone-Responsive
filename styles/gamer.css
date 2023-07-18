@@ -1,0 +1,16 @@
+/*---------------------------------------------- IMPORT GOOGLE FONT ---------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/*---------------------------------------------- UNIVERSAL STYLES -----------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*---------------------------------------------- CSS VARIABLES  ------------------------------------*/
+:root {
+    --h-color: purple;
+    --p-color: blue;
+    --pink: 20px;
+}
