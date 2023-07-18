@@ -12,5 +12,119 @@
 :root {
     --h-color: purple;
     --p-color: blue;
-    --pink: 20px;
+    --pink: #FF42A5;
 }
+
+/*----------------------------------------- HEADER SECTION STYLES START  ---------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.header-icon img {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.header-heading {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header-heading-later {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--pink);
+}
+
+.header-links {
+    width: 40%;
+}
+
+.header-links ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.header-links ul li {
+    height: 50%;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-links ul a {
+    text-decoration: none;
+}
+
+.header-button-link {
+    padding: 2%;
+}
+
+.header-button {
+    width: 200px;
+    height: 30px;
+    flex-shrink: 0;
+    font-size: 1vw;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*----------------------------------------- HEADER SECTION STYLES END  ---------------------------*/
+
+/*--------------------------------------- MOBILE RESPONSIVE SECTION START ---------------------------*/
+@media screen and (max-width:576px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .header-links ul {
+        display: flex;
+        flex-direction: column;
+        margin: 31px;
+        gap: 16px;
+    }
+}
+
+/*---------------------------------------- MOBILE RESPONSIVE SECTION END ----------------------------*/
+
+/*---------------------------------------- TAB RESPONSIVE SECTION START ----------------------------*/
+@media screen and (min-width:577px) and (max-width:960px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .header-links ul {
+        display: flex;
+        flex-direction: column;
+        margin: 31px;
+        gap: 16px;
+    }
+}
+
+/*---------------------------------------- TAB RESPONSIVE SECTION END ----------------------------*/
