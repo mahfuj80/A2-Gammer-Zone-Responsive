@@ -184,6 +184,71 @@ nav {
 
 /*--------------------------------------- SIGN IN SECTION STYLES END  --------------------------*/
 
+/* <!-------------------------- SIGN IN SECTION START ------------------------> */
+
+/* <!------------------------- GAMMER SECTION START  ------------------------> */
+
+.gamer {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 3% auto;
+}
+
+.gamer-image {
+    width: 200%;
+}
+
+.gamer-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gamer-description {
+    text-align: right;
+}
+
+.gamer-description-header {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4%;
+}
+
+.gamer-description-text {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamer-description-footer-text {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.gamer-description-footer-text-hed {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+
+
 /*--------------------------------------- MOBILE RESPONSIVE SECTION START ---------------------------*/
 @media screen and (max-width:576px) {
 
@@ -229,6 +294,43 @@ nav {
     }
 
     /*-------------------- MOBILE SIGN IN SECTION STYLES END  -------------------*/
+
+    /* <!-------------------------- MOBILE GAMER SECTION START ------------------------> */
+    .gamer {
+        flex-direction: column;
+        width: 85%;
+        margin: 20% auto;
+    }
+
+    .gamer-image {
+        width: 96%;
+    }
+
+    .gamer-image img {
+        width: 101%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .gamer-description {
+        text-align: center;
+        width: 80%;
+    }
+
+    .gamer-description-text {
+        text-align: center;
+    }
+
+    .gamer-description-header {
+        text-align: center;
+    }
+
+    .gamer-description-footer-text-hed {
+        text-align: center;
+    }
+
+    /* <!-------------------------MOBILE GAMER SECTION   ------------------------> */
 }
 
 /*---------------------------------------- MOBILE RESPONSIVE SECTION END ----------------------------*/
@@ -274,6 +376,11 @@ nav {
     }
 
     /*---------------------- TAB SIGN IN SECTION STYLES END  ------------------*/
+
+
+    /* <!-------------------------- TAB GAMER SECTION START ------------------------> */
+
+    /* <!------------------------- TAB GAMER SECTION START  ------------------------> */
 }
 
 /*---------------------------------------- TAB RESPONSIVE SECTION END ----------------------------*/
