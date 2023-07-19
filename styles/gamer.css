@@ -356,9 +356,11 @@ nav {
 }
 
 /* <!------------------------ VIDEO SECTION  STYLES END  -----------------> */
+/*---------------------------- NO DOWNLOAD SECTION STYLES START -----------------------*/
+
 .no-download {
     display: flex;
-    width: 85%;
+    width: 80%;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -416,7 +418,71 @@ nav {
     width: 80%;
 }
 
-/* <!----------------------------- VIDEO SECTION END  ----------------->  */
+/*---------------------------- NO DOWNLOAD SECTION STYLES END -----------------------*/
+/*---------------------------- ONLINE SECTION STYLES START -----------------------*/
+
+.online {
+    margin: 20% auto 10% auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    gap: 70px;
+    flex-direction: row-reverse;
+}
+
+.online-heading {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.online-description-paragraph {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online-heading-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.online-description {
+    width: 400px;
+    margin: auto;
+}
+
+.online-images {
+    position: relative;
+}
+
+.online-image-card {
+    position: absolute;
+    width: 60%;
+    top: 60%;
+    right: 55%;
+}
+
+.online-images img {
+    width: 80%;
+}
+
+/*---------------------------- ONLINE SECTION STYLES END -----------------------*/
 
 
 /*--------------------------------------- MOBILE RESPONSIVE SECTION START ---------------------------*/
@@ -532,6 +598,8 @@ nav {
         width: 65%;
     }
 
+    /* ------------------------------- MOBILE VIDEO SECTION END -----------------------*/
+
     /*----------------------------- NO DOWNLOAD SECTION START -------------------------*/
     .no-download {
         display: flex;
@@ -555,15 +623,53 @@ nav {
         text-align: center;
     }
 
+    .no-download-description-paragraph {
+        margin-top: 21%;
+    }
+
     .no-download-images {
         width: 80%;
     }
 
     /*----------------------------- NO DOWNLOAD SECTION END -------------------------*/
+
+    /*---------------------------- MOBILE ONLINE SECTION STYLES START -----------------------*/
+    .online {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 70px;
+        margin: 20% auto 10% auto;
+    }
+
+    .online-description {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .online-heading {
+        text-align: center;
+    }
+
+    .online-description-paragraph {
+        text-align: center;
+        margin-top: 21%;
+    }
+
+    .online-images {
+        width: 80%;
+    }
+
+    /*---------------------------- MOBILE ONLINE SECTION STYLES END -----------------------*/
 }
 
 
-/* ------------------------------- MOBILE VIDEO SECTION END -----------------------*/
+
 
 /*---------------------------------------- MOBILE RESPONSIVE SECTION END ----------------------------*/
 
@@ -660,8 +766,12 @@ nav {
         text-align: center;
     }
 
-    .no-download-heading,
+    .no-download-heading {
+        text-align: center;
+    }
+
     .no-download-description-paragraph {
+        margin-top: 21%;
         text-align: center;
     }
 
@@ -669,11 +779,41 @@ nav {
         width: 80%;
     }
 
-    /*----------------------------- NO DOWNLOAD SECTION END -------------------------*/
+    /*-----------------------------TAB NO DOWNLOAD SECTION END -------------------------*/
 
-    /* <!-------------------------- TAB GAMER SECTION START ------------------------> */
+    /* <!-------------------------- TAB ONLINE SECTION START ------------------------> */
+    .online {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 70px;
+        margin: 20% auto 10% auto;
+    }
 
-    /* <!------------------------- TAB GAMER SECTION START  ------------------------> */
+    .online-description {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .online-heading {
+        text-align: center;
+    }
+
+    .online-description-paragraph {
+        margin-top: 21%;
+        text-align: center;
+    }
+
+    .online-images {
+        width: 80%;
+    }
+
+    /* <!------------------------- TAB ONLINE SECTION END  ------------------------> */
 }
 
 /*---------------------------------------- TAB RESPONSIVE SECTION END ----------------------------*/
