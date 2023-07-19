@@ -595,8 +595,63 @@ nav {
     display: none;
 }
 
-
 /*---------------------------- GAME TYPE SECTION STYLES END  ---------------------*/
+
+/*---------------------------- FOOTER SECTION STYLES START  ---------------------*/
+footer {
+    background: #0B0223;
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.footer-name {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.connections {
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+}
+
+.polycies {
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.coppywrite {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*---------------------------- FOOTER SECTION STYLES END  ---------------------*/
 
 /*--------------------------------------- MOBILE RESPONSIVE SECTION START ---------------------------*/
 @media screen and (max-width:576px) {
@@ -712,7 +767,7 @@ nav {
 
     /* ------------------------------- MOBILE VIDEO SECTION END -----------------------*/
 
-    /*----------------------------- NO DOWNLOAD SECTION START -------------------------*/
+    /*----------------------------- MOBILE  NO DOWNLOAD SECTION START -------------------------*/
     .no-download {
         display: flex;
         width: 80%;
@@ -743,7 +798,7 @@ nav {
         width: 80%;
     }
 
-    /*----------------------------- NO DOWNLOAD SECTION END -------------------------*/
+    /*----------------------------- MOBILE NO DOWNLOAD SECTION END -------------------------*/
 
     /*---------------------------- MOBILE ONLINE SECTION STYLES START -----------------------*/
     .online {
@@ -839,6 +894,31 @@ nav {
         font-size: 12px;
     }
 
+    /*---------------------------- MOBILE FOOTER SECTION STYLE START  -------------------------*/
+
+    footer {
+        height: 650px;
+    }
+
+    .connections {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 72px);
+        gap: 14px;
+        text-align: center;
+    }
+
+    .polycies {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 174px);
+    }
+
+    /*---------------------------- MOBILE FOOTER SECTION STYLE END  -------------------------*/
     /*----------------------------- MOBILE  GAME TYPE SECTION STYLES END  ---------------------*/
 }
 
@@ -1028,6 +1108,28 @@ nav {
         display: block;
     }
 
+    .game-type-mobile {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 9px;
+        margin-top: 8%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 8% auto;
+    }
+
+    .game-type-item img {
+        width: 28%;
+    }
+
+    .game-type-item {
+        gap: 0;
+        font-size: 12px;
+    }
+
+    s
     /*----------------------------- MOBILE  GAME TYPE SECTION STYLES END  ---------------------*/
 }
 
