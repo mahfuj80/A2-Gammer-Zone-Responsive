@@ -89,6 +89,7 @@ nav {
     font-size: 18px;
     font-weight: 500;
     border: 0;
+    cursor: pointer;
 }
 
 /*----------------------------------------- HEADER SECTION STYLES END  ---------------------------*/
@@ -155,6 +156,7 @@ nav {
     text-transform: uppercase;
     border: none;
     margin-top: 3%;
+    cursor: pointer;
 }
 
 .skyblue-button {
@@ -170,6 +172,7 @@ nav {
     text-transform: uppercase;
     border: none;
     margin-top: 3%;
+    cursor: pointer;
 }
 
 .signin-image {
@@ -335,6 +338,7 @@ nav {
 
 .video-image-item:hover .video-image {
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .video-image-item:hover .video-image-middle {
@@ -521,6 +525,7 @@ nav {
     border-radius: 48px;
     background: #FFF;
     border: 0;
+    cursor: pointer;
 }
 
 .careers-heading {
@@ -589,6 +594,7 @@ nav {
     border: 2px solid var(--pink);
     border-radius: 50px;
     color: var(--pink);
+    cursor: pointer;
 }
 
 .game-type-mobile {
@@ -627,12 +633,14 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .socials {
     display: flex;
     gap: 20px;
     font-size: 35px;
+    cursor: pointer;
 }
 
 .polycies {
@@ -642,6 +650,7 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .coppywrite {
@@ -649,6 +658,7 @@ footer {
     text-align: center;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /*---------------------------- FOOTER SECTION STYLES END  ---------------------*/
