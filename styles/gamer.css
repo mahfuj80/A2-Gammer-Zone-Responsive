@@ -550,6 +550,54 @@ nav {
 
 /*---------------------------- CAREERS SECTION STYLES END ---------------------*/
 
+/*---------------------------- GAME TYPE SECTION STYLES START  ---------------------*/
+.game-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 85%;
+    margin: 5% auto 5% auto;
+}
+
+
+.game-type-first-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.game-type-second-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.game-type-item {
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 11px;
+}
+
+.game-type-item:hover {
+
+    border: 2px solid var(--pink);
+    border-radius: 50px;
+    color: var(--pink);
+}
+
+.game-type-mobile {
+    display: none;
+}
+
+
+/*---------------------------- GAME TYPE SECTION STYLES END  ---------------------*/
+
 /*--------------------------------------- MOBILE RESPONSIVE SECTION START ---------------------------*/
 @media screen and (max-width:576px) {
 
@@ -659,7 +707,6 @@ nav {
 
     .video-image-item p {
         margin: 5% auto 5% auto;
-        margin: auto;
         width: 65%;
     }
 
@@ -761,6 +808,38 @@ nav {
     }
 
     /*---------------------------- MOBILE CAREERS SECTION STYLES END ---------------------*/
+
+    /*----------------------------- MOBILE  GAME TYPE SECTION STYLES START  ---------------------*/
+    .game-type {
+        display: none;
+    }
+
+    .game-type-mobile {
+        display: block;
+    }
+
+    .game-type-mobile {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 9px;
+        margin-top: 8%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 8% auto;
+    }
+
+    .game-type-item img {
+        width: 28%;
+    }
+
+    .game-type-item {
+        gap: 0;
+        font-size: 12px;
+    }
+
+    /*----------------------------- MOBILE  GAME TYPE SECTION STYLES END  ---------------------*/
 }
 
 
@@ -836,7 +915,6 @@ nav {
 
     .video-image-item p {
         margin: 5% auto 5% auto;
-        margin: auto;
         width: 68%;
     }
 
@@ -940,6 +1018,17 @@ nav {
     }
 
     /*---------------------------- TAB CAREERS SECTION STYLES END ---------------------*/
+
+    /*----------------------------- MOBILE  GAME TYPE SECTION STYLES START  ---------------------*/
+    .game-type {
+        display: none;
+    }
+
+    .game-type-mobile {
+        display: block;
+    }
+
+    /*----------------------------- MOBILE  GAME TYPE SECTION STYLES END  ---------------------*/
 }
 
 /*---------------------------------------- TAB RESPONSIVE SECTION END ----------------------------*/
