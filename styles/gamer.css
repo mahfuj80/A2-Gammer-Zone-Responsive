@@ -633,6 +633,9 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+}
+
+.connections p {
     cursor: pointer;
 }
 
@@ -640,6 +643,10 @@ footer {
     display: flex;
     gap: 20px;
     font-size: 35px;
+
+}
+
+.socials p {
     cursor: pointer;
 }
 
@@ -650,6 +657,9 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+.polycies p {
     cursor: pointer;
 }
 
@@ -658,7 +668,6 @@ footer {
     text-align: center;
     font-size: 12px;
     font-weight: 500;
-    cursor: pointer;
 }
 
 /*---------------------------- FOOTER SECTION STYLES END  ---------------------*/
